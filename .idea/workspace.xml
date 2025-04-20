@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0546bea-417e-4bfb-bbd5-9380a04dcdfa" name="Changes" comment="Added the code for sending the emails">
+    <list default="true" id="a0546bea-417e-4bfb-bbd5-9380a04dcdfa" name="Changes" comment="sending email from forms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Emailing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Emailing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Contact_Us.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Contact_Us.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Projects/My_Portfolio_Webapp",
+    "last_opened_file_path": "E:/Projects/Company_Website",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -170,7 +168,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745167696205</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sending email from forms">
+      <option name="closed" value="true" />
+      <created>1745169962374</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745169962374</updated>
+    </task>
+    <task id="LOCAL-00011" summary="sending email from forms">
+      <option name="closed" value="true" />
+      <created>1745170500339</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745170500339</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +208,7 @@
     <MESSAGE value="Added Navigation Menu and a Contact page" />
     <MESSAGE value="Submission form was created for contact and main file was renamed" />
     <MESSAGE value="Added the code for sending the emails" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the code for sending the emails" />
+    <MESSAGE value="sending email from forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="sending email from forms" />
   </component>
 </project>
