@@ -34,12 +34,17 @@ with col2:
 content2 = "Below is some of my applications and other work you may visit."
 st.write(content2)
 
-col3 , col4 = st.columns(2)
+col3 ,empty_columns, col4 = st.columns([1.5 ,0.5 ,1.5])
 df = pd.read_csv("data.csv" , sep = ";")
 with col3:
-    for index , row in df[10:20].iterrows():
-        st.header(row["title"])
-
-with col4:
     for index , row in df[:10].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("My_Portfolio/"+ row["image"])
+        st.write(f"Source_Code : ({row ['url']})")
+with col4:
+    for index , row in df[10:].iterrows():
+        st.header(row["title"])
+        st.write(row["description"])
+        st.image("My_Portfolio/" + row["image"])
+        st.write(f"Source_Code : ({row['url']})")
