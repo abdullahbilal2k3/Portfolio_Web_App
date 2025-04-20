@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0546bea-417e-4bfb-bbd5-9380a04dcdfa" name="Changes" comment="Added titles in column 3 and 4">
+    <list default="true" id="a0546bea-417e-4bfb-bbd5-9380a04dcdfa" name="Changes" comment="Added the code for sending the emails">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Emailing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Emailing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Contact_Us.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Contact_Us.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -34,23 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Projects/My_Portfolio_Webapp/.venv&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Emailing.executor": "Run",
+    "Python.Home.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/Projects/My_Portfolio_Webapp",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Projects\My_Portfolio_Webapp" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Home" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="My_Portfolio_Webapp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="E:\Projects\My_Portfolio_Webapp\Home.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +138,39 @@
       <option name="project" value="LOCAL" />
       <updated>1745144500290</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Description , images and links on the profile">
+      <option name="closed" value="true" />
+      <created>1745145472111</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745145472111</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Navigation Menu and a Contact page">
+      <option name="closed" value="true" />
+      <created>1745163894253</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745163894253</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Submission form was created for contact and main file was renamed">
+      <option name="closed" value="true" />
+      <created>1745164770410</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745164770410</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added the code for sending the emails">
+      <option name="closed" value="true" />
+      <created>1745167696205</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745167696205</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +190,10 @@
     <MESSAGE value="added column and photo path" />
     <MESSAGE value="added column and photo path and new description" />
     <MESSAGE value="Added titles in column 3 and 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added titles in column 3 and 4" />
+    <MESSAGE value="Added Description , images and links on the profile" />
+    <MESSAGE value="Added Navigation Menu and a Contact page" />
+    <MESSAGE value="Submission form was created for contact and main file was renamed" />
+    <MESSAGE value="Added the code for sending the emails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the code for sending the emails" />
   </component>
 </project>
