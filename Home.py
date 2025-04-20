@@ -21,7 +21,7 @@ with col1:
         st.warning(f"Image file not found: {image_path}")
 
 with col2:
-    st.title("Abdullah Bilal")
+    st.markdown("### Abdullah Bilal")  # Smaller and more aligned than st.title()
 
     content1 = """
     As a passionate Computer Science student with hands-on experience in software development, UI/UX design, and web technologies, 
@@ -31,17 +31,26 @@ with col2:
     """
     st.info(content1)
 
-content2 = "Below is some of my applications and other work you may visit."
-st.write(content2)
+
+
+
+#below is the line breaker
+st.markdown("---")
+
+#allign the text in the centre in html
+st.markdown("<h2 style='text-align: center;'>My Projects</h2>", unsafe_allow_html=True)
+
 
 col3 ,empty_columns, col4 = st.columns([1.5 ,0.5 ,1.5])
 df = pd.read_csv("data.csv" , sep = ";")
+
 with col3:
     for index , row in df[:10].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("My_Portfolio/"+ row["image"])
         st.write(f"Source_Code : ({row ['url']})")
+
 with col4:
     for index , row in df[10:].iterrows():
         st.header(row["title"])
