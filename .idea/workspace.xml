@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0546bea-417e-4bfb-bbd5-9380a04dcdfa" name="Changes" comment="My Portfolio">
-      <change afterPath="$PROJECT_DIR$/.venv/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/My_Portfolio_Webapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My_Portfolio_Webapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,8 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Projects/My_Portfolio_Webapp/.venv"
+    "last_opened_file_path": "E:/Projects/My_Portfolio_Webapp/.venv",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
