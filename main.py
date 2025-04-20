@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 import os
 from PIL import Image
 
@@ -32,3 +33,13 @@ with col2:
 
 content2 = "Below is some of my applications and other work you may visit."
 st.write(content2)
+
+col3 , col4 = st.columns(2)
+df = pd.read_csv("data.csv" , sep = ";")
+with col3:
+    for index , row in df[10:20].iterrows():
+        st.header(row["title"])
+
+with col4:
+    for index , row in df[:10].iterrows():
+        st.header(row["title"])
